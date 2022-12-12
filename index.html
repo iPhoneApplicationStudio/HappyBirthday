@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Birthday</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main_header">
+      <div class="center_div">
+        <p>
+          Happy birthday to Pradeep Mamaji
+        </p>
+        <img src="pradeep.jpeg" height="100" width="133">
+          <br />
+        <p>🎂🎂🎂🎂🎂</p>
+      </div>
+    </div>
+    <div class="main_footer">
+      <p>
+        © Copyright 2022, All Rights Reserved ONS Application Studio.
+      </p>
+    </div>
+
+    <script src="./confetti.js"></script>
+    <script>
+
+      const startit = () => {
+        setTimeout(function () {
+          console.log("start");
+          confetti.start();
+        }, 1000);
+      };
+
+      const stopit = () => {
+        setTimeout(function () {
+          console.log("stop");
+          confetti.stop();
+        }, 6000);
+      };
+
+      startit();
+      stopit();
+    </script>
+
+  </body>
+</html>
