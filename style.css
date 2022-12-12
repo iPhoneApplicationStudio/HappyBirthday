@@ -11,7 +11,7 @@
 
       .main_header {
         width: 100vw;
-        height: 97vh;
+        height: 80vh;
         background-color: hsl(0, 0%, 94%);
         display: grid;
         place-items: center;
@@ -19,11 +19,12 @@
 
       .main_footer {
         width: 100vw;
-        height: 3vh;
+        height: 20vh;
         background-color: hsl(0, 0%, 94%);
         display: inline;
         display: grid;
         place-items: center;
+        font-size: 2rem;
       }
 
       .center_div {
